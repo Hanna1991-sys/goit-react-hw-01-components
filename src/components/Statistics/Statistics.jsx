@@ -12,7 +12,6 @@ import {
 const Statistics = ({ stats }) => {
   return (
     <StatisticsSection>
-      <Title>Upload stats</Title>
       <StatList>
         {stats.map(stat => (
           <StatItem
