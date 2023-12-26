@@ -2,7 +2,6 @@ import PropTypes from 'prop-types';
 import { getRandomHexColor } from './getRandomHexColor';
 import {
   StatisticsSection,
-  Title,
   StatList,
   StatItem,
   Label,
