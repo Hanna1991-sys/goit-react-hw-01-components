@@ -2,6 +2,7 @@ import PropTypes from 'prop-types';
 import { getRandomHexColor } from './getRandomHexColor';
 import {
   StatisticsSection,
+  Title,
   StatList,
   StatItem,
   Label,
@@ -11,6 +12,7 @@ import {
 const Statistics = ({ stats }) => {
   return (
     <StatisticsSection>
+      <Title>Upload stats</Title>
       <StatList>
         {stats.map(stat => (
           <StatItem
